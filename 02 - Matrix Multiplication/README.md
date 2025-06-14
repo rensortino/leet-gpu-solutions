@@ -15,54 +15,48 @@ Write a program that multiplies two matrices of 32-bit floating point numbers on
 Example 1:
 
 Input:  
-Matrix $A = (2 \times 2)$
-$$
-A = \begin{pmatrix}
-  1.0 & 2.0 \\
-  3.0 & 4.0
-\end{pmatrix}
-$$
-Matrix $B = (2 \times 2)$
-$$
-B = \begin{pmatrix}
-  5.0 & 6.0 \\
-  7.0 & 8.0
-\end{pmatrix}
-$$
+Matrix `A = (2 x 2)`
+```
+A =
+  [1.0 2.0
+  3.0 4.0]
+```
+Matrix `B = (2 x 2)`
+```
+B = 
+  [5.0 6.0
+  7.0 8.0]
+```
 
 Output:
-Matrix $C = (2 \times 2)$
-$$
-C = \begin{pmatrix}
-  19.0 & 22.0 \\
-  43.0 & 50.0
-\end{pmatrix}
-$$
+
+Matrix `C = (2 x 2)`
+```
+C = 
+  [19.0 22.0
+  43.0 50.0]
+``` 
 
 Example 2:
 Input:
-Matrix $A = (1 \times 3)$
-$$
-A = \begin{pmatrix}
-  1.0 & 2.0 & 3.0
-\end{pmatrix}
-$$
-Matrix $B = (3 \times 1)$
-$$
-B = \begin{pmatrix}
-  4.0 \\
-  5.0 \\
-  6.0
-\end{pmatrix}
-$$
+Matrix `A = (1 x 3)`
+```
+A = [1.0 2.0 3.0]
+```
+Matrix `B = (3 x 1)`
+```
+B = 
+  [4.0
+  5.0 
+  6.0]
+```
 Output:
-Matrix $C = (1 \times 1)$
-$$
-C = \begin{pmatrix}
-  32.0
-\end{pmatrix}
-$$
+Matrix `C = (1 x 1)`
+```
+C =
+  [32.0]
+```
 
 ## Constraints
-- $1 \leq M, N, K \leq 8192$
-- Performance is measured with $M = 8192$, $N = 6144$, $K = 4096$
+- `1 < M, N, K < 8192`
+- Performance is measured with `M = 8192`, `N = 6144`, `K = 4096`
